@@ -10,8 +10,21 @@
           <form method="POST" action="/">
             <div class="col-8 m-auto">
               <h4 class="text-warning">Link shortening successful! Visit your website at</h4>
-              <h4><a href="{{baseUrl}}{{shortUrl}}">localhost:3000/{{baseUrl}}{{shortUrl}}</a></h4>
+              <h4 id="short-url"><a href="{{baseUrl}}{{shortUrl}}">localhost:3000/{{baseUrl}}{{shortUrl}}</a></h4>
             </div>
+            <small>
+              <button id="copy-btn" type="button" class="btn btn-outline-secondary">Copy</button>
+              <script>
+                const copyBtn = document.querySelector("#copy-btn");
+                const url = document.querySelector("#short-url");
+                //按鈕監聽器複製 （原使用document.execCommand()）
+                copyBtn.addEventListener("click", () => {
+                  navigator.clipboard.writeText(url.innerText).then(() => {
+                    alert("URL has been copied !");
+                  });
+                });
+              </script>
+            </small>
             <div class="container">
               <div class="row">
                 <div class="col">&nbsp;</div>
