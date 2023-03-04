@@ -1,20 +1,21 @@
 # URL_Shortner
+![image](https://github.com/eunicebibi/shorten_url/blob/main/ShortenURL_img.png)
 
 ## Introduce
 A web can shorten URL made by Node.js、Javascript、Express、Mongoose。
 
 ## Getting Started
-> 1.Make sure Node.js and npm has already installed. 
-> 2.Clone the repository to localhost. 
-> 3.Open the repository into file at localhost with Terminal.
-> You can type:
+1.Make sure Node.js and npm has already installed.   
+2.Clone the repository to localhost.  
+3.Open the repository into file at localhost with Terminal.  
+ You can type:  
 `npm install`
-> 4.When finish the installing, you can type:
+4.When finish the installing, you can type:
 `npm run dev`
-> 5.It's in process when see this messenge.
+5.It's in process when see this messenge.
 `App is running on http://localhost:3000`
-> 6.Get in to the website 
-> 7.If you'd like to stop, you can type:
+6.Get in to the website. 
+7.If you'd like to stop, you can type:
 `ctrl + c`
 
 ## Function
