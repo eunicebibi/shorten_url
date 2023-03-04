@@ -9,13 +9,13 @@ A web can shorten URL made by Node.js、Javascript、Express、Mongoose。
 2.Clone the repository to localhost.  
 3.Open the repository into file at localhost with Terminal.  
  You can type:  
-`npm install`
-4.When finish the installing, you can type:
-`npm run dev`
-5.It's in process when see this messenge.
-`App is running on http://localhost:3000`
+`npm install`  
+4.When finish the installing, you can type:  
+`npm run dev`. 
+5.It's in process when see this messenge.  
+`App is running on http://localhost:3000`. 
 6.Get in to the website. 
-7.If you'd like to stop, you can type:
+7.If you'd like to stop, you can type:  
 `ctrl + c`
 
 ## Function
